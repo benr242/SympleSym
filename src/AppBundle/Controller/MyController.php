@@ -14,10 +14,12 @@ class MyController extends Controller
     }
 
     /**
-     * @Route("/")
+     * @Route("/", name="home")
      */
     public function myAction()
     {
-        return new Response("aoeu");
+        return  $this->render('basic.html.twig', [
+            'me' => 'benr242'
+        ]);
     }
 }

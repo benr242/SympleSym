@@ -15,12 +15,12 @@
       <file leaf-file-name="MyController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/MyController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="558">
+              <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
                 <element signature="e#40#99#0#PHP" expanded="true" />
                 <element signature="e#362#379#0#PHP" expanded="true" />
-                <element signature="e#556#573#0#PHP" expanded="true" />
+                <element signature="e#604#621#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -29,8 +29,8 @@
       <file leaf-file-name="basic.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/basic.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding>
                 <element signature="e#12#26#0#Twig" expanded="true" />
               </folding>
@@ -56,8 +56,8 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/SimpleController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/basic.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/basic.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/MyController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/basic.html.twig" />
       </list>
     </option>
   </component>
@@ -228,8 +228,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Resources/views" />
       <recent name="$PROJECT_DIR$/app/Resources/views/default" />
+      <recent name="$PROJECT_DIR$/app/Resources/views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -326,12 +326,12 @@
       <workItem from="1492468182810" duration="1746000" />
       <workItem from="1492470003044" duration="4402000" />
       <workItem from="1492490464257" duration="104000" />
-      <workItem from="1492520981695" duration="1070000" />
+      <workItem from="1492520981695" duration="3726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7322000" />
+    <option name="totallyTimeSpent" value="9978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -374,7 +374,7 @@
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
             <element signature="e#362#379#0#PHP" expanded="true" />
-            <element signature="e#556#573#0#PHP" expanded="true" />
+            <element signature="e#604#621#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -404,7 +404,7 @@
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
             <element signature="e#362#379#0#PHP" expanded="true" />
-            <element signature="e#556#573#0#PHP" expanded="true" />
+            <element signature="e#604#621#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -434,7 +434,7 @@
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
             <element signature="e#362#379#0#PHP" expanded="true" />
-            <element signature="e#556#573#0#PHP" expanded="true" />
+            <element signature="e#604#621#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -458,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/basic.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
             <element signature="e#12#26#0#Twig" expanded="true" />
           </folding>
@@ -468,12 +468,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/MyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="558">
+          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
             <element signature="e#362#379#0#PHP" expanded="true" />
-            <element signature="e#556#573#0#PHP" expanded="true" />
+            <element signature="e#604#621#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

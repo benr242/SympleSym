@@ -20,14 +20,16 @@ class MyController extends Controller
     }
 
     /**
-     * @Route("/user/{user}")
+     * @Route("/user/{user}", name="userVar")
      */
     public function userVarAction($user)
     {
+        $person = "thisPerson";
 
         return  $this->render('basic.html.twig', [
             'me' => 'benr242',
-            'user' => $user
+            'user' => $user,
+            'person' => $person
         ]);
     }
 }

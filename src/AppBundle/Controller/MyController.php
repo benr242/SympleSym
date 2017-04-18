@@ -8,10 +8,6 @@ use Symfony\Component\HttpFoundation\Response;
 
 class MyController extends Controller
 {
-    public function indexAction($name)
-    {
-        return $this->render('', array('name' => $name));
-    }
 
     /**
      * @Route("/", name="home")
@@ -20,6 +16,18 @@ class MyController extends Controller
     {
         return  $this->render('basic.html.twig', [
             'me' => 'benr242'
+        ]);
+    }
+
+    /**
+     * @Route("/user/{user}")
+     */
+    public function userVarAction($user)
+    {
+
+        return  $this->render('basic.html.twig', [
+            'me' => 'benr242',
+            'user' => $user
         ]);
     }
 }

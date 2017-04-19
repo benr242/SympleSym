@@ -1,8 +1,21 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}
+    {{ user }}
+{% endblock %}
+
 {% block body %}
     me: {{ me }}
     user: {{ user }}
     person: {{ person }}
 
+
+    <ul>
+        {% for note in notes %}
+            <li>{{ note }}</li>
+        {% endfor %}
+    </ul>
+
+
+    {{ dump() }}
 {% endblock %}

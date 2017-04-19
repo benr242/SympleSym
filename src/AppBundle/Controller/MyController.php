@@ -26,10 +26,18 @@ class MyController extends Controller
     {
         $person = "thisPerson";
 
+
+        $notes = [
+            'Octopus asked me a riddle, outsmarted me',
+            'I counted 8 legs... as they wrapped around me',
+            'Inked!'
+        ];
+
         return  $this->render('basic.html.twig', [
             'me' => 'benr242',
             'user' => $user,
-            'person' => $person
+            'person' => $person,
+            'notes' => $notes
         ]);
     }
 }

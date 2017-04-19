@@ -12,25 +12,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/MyController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="702">
+              <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
               <folding>
                 <element signature="e#40#99#0#PHP" expanded="true" />
                 <element signature="e#362#379#0#PHP" expanded="true" />
-                <element signature="e#604#621#0#PHP" expanded="true" />
+                <element signature="e#774#791#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basic.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="basic.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/basic.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#12#26#0#Twig" expanded="true" />
               </folding>
@@ -326,12 +326,12 @@
       <workItem from="1492468182810" duration="1746000" />
       <workItem from="1492470003044" duration="4402000" />
       <workItem from="1492490464257" duration="104000" />
-      <workItem from="1492520981695" duration="3726000" />
+      <workItem from="1492520981695" duration="7477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9978000" />
+    <option name="totallyTimeSpent" value="13729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -374,7 +374,7 @@
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
             <element signature="e#362#379#0#PHP" expanded="true" />
-            <element signature="e#604#621#0#PHP" expanded="true" />
+            <element signature="e#774#791#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -404,7 +404,7 @@
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
             <element signature="e#362#379#0#PHP" expanded="true" />
-            <element signature="e#604#621#0#PHP" expanded="true" />
+            <element signature="e#774#791#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -434,7 +434,7 @@
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
             <element signature="e#362#379#0#PHP" expanded="true" />
-            <element signature="e#604#621#0#PHP" expanded="true" />
+            <element signature="e#774#791#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -456,24 +456,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/basic.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/MyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="702">
+          <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
           <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
+            <element signature="e#40#99#0#PHP" expanded="true" />
+            <element signature="e#362#379#0#PHP" expanded="true" />
+            <element signature="e#774#791#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/MyController.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/basic.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#40#99#0#PHP" expanded="true" />
-            <element signature="e#362#379#0#PHP" expanded="true" />
-            <element signature="e#604#621#0#PHP" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>

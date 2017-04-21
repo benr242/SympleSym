@@ -27,6 +27,10 @@ class Genus
      */
     private $name;
 
+    private $speciesCount;
+
+    private $updatedAt;
+
     /**
      * @return mixed
      */
@@ -43,5 +47,37 @@ class Genus
         $this->name = $name;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getSpeciesCount()
+    {
+        return $this->speciesCount;
+    }
+
+    /**
+     * @param mixed $speciesCount
+     */
+    public function setSpeciesCount($speciesCount)
+    {
+        $this->speciesCount = $speciesCount;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getUpdatedAt()
+    {
+        //return $this->updatedAt;
+        return new \DateTime('-'.rand(0, 100).' days');
+    }
+
+    /**
+     * @param mixed $updatedAt
+     */
+    public function setUpdatedAt($updatedAt)
+    {
+        $this->updatedAt = $updatedAt;
+    }
 
 }

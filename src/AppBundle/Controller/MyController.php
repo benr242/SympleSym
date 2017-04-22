@@ -66,7 +66,8 @@ class MyController extends Controller
         $em = $this->getDoctrine()->getManager();
 
 
-        $genuses = $em->getRepository('AppBundle:Genus')->findAll();
+        $genuses = $em->getRepository('AppBundle:Genus')
+            ->findAll();
 
         //dump($genuses);die;
 

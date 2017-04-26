@@ -16,7 +16,9 @@ class MyController extends Controller
     public function myAction()
     {
         return  $this->render('basic.html.twig', [
-            'me' => 'benr242'
+            'user' => 'benr242',
+            'me' => 'ben',
+            'person' => 'per'
         ]);
     }
 
@@ -47,11 +49,11 @@ class MyController extends Controller
      */
     public function newAction()
     {
+        $em = $this->getDoctrine()->getManager();
+
         $genus = new Genus();
         $genus->setName('Octopus'.rand(1, 100));
 
-
-        $em = $this->getDoctrine()->getManager();
         $em->persist($genus);
         $em->flush();
 

@@ -18,7 +18,8 @@ class MyController extends Controller
         return  $this->render('basic.html.twig', [
             'user' => 'benr242',
             'me' => 'ben',
-            'person' => 'per'
+            'person' => 'per',
+            'notes' => 0
         ]);
     }
 
@@ -52,7 +53,7 @@ class MyController extends Controller
         $em = $this->getDoctrine()->getManager();
 
         $genus = new Genus();
-        $genus->setName('Octopus'.rand(1, 100));
+        $genus->setName('OctopusBEN'.rand(1, 100));
 
         $em->persist($genus);
         $em->flush();
@@ -61,7 +62,7 @@ class MyController extends Controller
     }
 
     /**
-     * @Route("/genus")
+     * @Route("/genus", name="list")
      */
     public function listActio()
     {

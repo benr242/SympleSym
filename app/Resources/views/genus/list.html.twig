@@ -1,5 +1,7 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}List{% endblock %}
+
 {% block body %}
     <table class="table table-striped">
         <thead>
@@ -12,8 +14,9 @@
 
 
         <tbody>
-        {% for genus in genuses %}
+        {% for key, genus in genuses %}
             <tr>
+                <td>key: {{ key }}</td>
                 <td>{{ genus.name }}</td>
                 <td>{{ genus.speciesCount }}</td>
                 <td>{{ genus.updatedAt|date('Y-m-d') }}</td>

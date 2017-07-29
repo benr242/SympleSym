@@ -4,8 +4,10 @@
         <meta charset="UTF-8" />
         <link rel="stylesheet" type="text/css" >
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        {% block stylesheets %}
+            <link rel="stylesheet" href="{{ asset('css/myTestStyles.css') }}" />
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{ asset('css/"/>
     </head>
     <body>
         {% block body %}{% endblock %}

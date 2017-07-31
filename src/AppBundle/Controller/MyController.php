@@ -64,7 +64,7 @@ class MyController extends Controller
     /**
      * @Route("/genus", name="list")
      */
-    public function listActio()
+    public function listAction()
     {
         $em = $this->getDoctrine()->getManager();
 
@@ -78,5 +78,13 @@ class MyController extends Controller
             'genuses' => $genuses
         ]);
 
+    }
+
+    /**
+     * @Route("testcss")
+     */
+    public function cssTestr()
+    {
+        return $this->render('test/mycss.html.twig');
     }
 }

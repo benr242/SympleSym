@@ -81,10 +81,12 @@ class MyController extends Controller
     }
 
     /**
-     * @Route("testcss")
+     * @Route("testcss/{test}")
      */
-    public function cssTestr()
+    public function cssTest($test)
     {
-        return $this->render('test/mycss.html.twig');
+        return $this->render('test/mycss.html.twig', [
+            'test' => $test
+        ]);
     }
 }

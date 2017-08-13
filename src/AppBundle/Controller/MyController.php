@@ -5,14 +5,39 @@ namespace AppBundle\Controller;
 use AppBundle\Entity\Genus;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class MyController extends Controller
 {
 
     /**
-     * @Route("/", name="home")
+     * @Route("/", name="githut")
      */
+    public function githutAction(Request $request)
+    {
+        return $this->render('githut/index.html.twig', [
+            'avatar_url'  => 'https://avatars.githubusercontent.com/u/12968163?v=3',
+            'name'        => 'Code Review Videos',
+            'login'       => 'codereviewvideos',
+            'details'     => [
+                'company'   => 'Code Review Videos',
+                'location'  => 'Preston, Lancs, UK',
+                'joined_on' => 'Joined on Fake Date For Now',
+            ],
+            'blog'        => 'https://codereviewvideos.com/',
+            'social_data' => [
+                'followers'    => 11,
+                'following'    => 22,
+                'public_repos' => 33,
+            ]
+        ]);
+    }
+
+
+    /**
+    * @Route("/home", name="home")
+    */
     public function myAction()
     {
         return  $this->render('basic.html.twig', [
@@ -95,11 +120,13 @@ class MyController extends Controller
      */
     public function testDataAction()
     {
-        return $this->render('test/td.html.twig', [
-            'avatar_url'  => 'https://avatars.githubusercontent.com/u/12968163?v=3',
-            'name'        => 'Code Review Videos',
-            'login'       => 'codereviewvideos',
-            'blog'        => 'https://codereviewvideos.com/'
-        ]);
+        $testData = [
+            "avatar_url"  =>  "https://avatars.githubusercontent.com/u/12968163?v=3",
+            "name"        => "Code Review Videos",
+            "login"       => "codereviewvideos",
+            "blog"        => "https://codereviewvideos.com/"
+        ];
+
+        return $this->render('test/td.html.twig', $testData);
     }
 }

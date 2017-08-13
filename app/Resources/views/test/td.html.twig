@@ -3,5 +3,13 @@
 {% block title %}List{% endblock %}
 
 {% block body %}
-    {{ login }}
+    {{ dump() }}
+
+    {% for key, value in _context %}
+        {{ dump(key) }}
+    {% endfor %}
+
+
+
+
 {% endblock %}

@@ -14,22 +14,34 @@
       <file leaf-file-name="MyController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/MyController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#40#67#0#PHP" expanded="true" />
-                <element signature="e#1581#1598#1#PHP" expanded="true" />
-                <element signature="e#2089#2108#0#PHP" expanded="true" />
+                <element signature="e#457#481#0#PHP" expanded="true" />
+                <element signature="e#1242#1259#0#PHP" expanded="true" />
+                <element signature="e#2433#2450#1#PHP" expanded="true" />
+                <element signature="e#3222#3241#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="td.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="td.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/test/td.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="252">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,16 +62,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
               <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,8 +152,9 @@
         <option value="$PROJECT_DIR$/mink.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/test/mycss.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/test/td.html.twig.html" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/MyController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/test/td.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/MyController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/index.html.twig" />
       </list>
     </option>
   </component>
@@ -223,6 +226,24 @@
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SimpleSymf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleSym" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SimpleSymf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleSym" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SimpleSymf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleSym" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="SimpleSymf" type="b2602c69:ProjectViewProjectNode" />
@@ -417,12 +438,12 @@
       <workItem from="1501671023825" duration="1349000" />
       <workItem from="1502543883184" duration="121000" />
       <workItem from="1502544028637" duration="4202000" />
-      <workItem from="1502612996453" duration="2101000" />
+      <workItem from="1502612996453" duration="13067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152444000" />
+    <option name="totallyTimeSpent" value="163410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="114" width="1920" height="1053" extended-state="6" />
@@ -458,7 +479,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/AppBundle/Controller/MyController.php</url>
-          <line>40</line>
+          <line>65</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -466,13 +487,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/basic.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -509,8 +523,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#40#67#0#PHP" expanded="true" />
-            <element signature="e#1581#1598#1#PHP" expanded="true" />
-            <element signature="e#2089#2108#0#PHP" expanded="true" />
+            <element signature="e#457#481#0#PHP" expanded="true" />
+            <element signature="e#1242#1259#0#PHP" expanded="true" />
+            <element signature="e#2433#2450#1#PHP" expanded="true" />
+            <element signature="e#3222#3241#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -558,8 +574,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#40#67#0#PHP" expanded="true" />
-            <element signature="e#1581#1598#1#PHP" expanded="true" />
-            <element signature="e#2089#2108#0#PHP" expanded="true" />
+            <element signature="e#457#481#0#PHP" expanded="true" />
+            <element signature="e#1242#1259#0#PHP" expanded="true" />
+            <element signature="e#2433#2450#1#PHP" expanded="true" />
+            <element signature="e#3222#3241#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -607,8 +625,10 @@
           <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
           <folding>
             <element signature="e#40#67#0#PHP" expanded="true" />
-            <element signature="e#1581#1598#1#PHP" expanded="true" />
-            <element signature="e#2089#2108#0#PHP" expanded="true" />
+            <element signature="e#457#481#0#PHP" expanded="true" />
+            <element signature="e#1242#1259#0#PHP" expanded="true" />
+            <element signature="e#2433#2450#1#PHP" expanded="true" />
+            <element signature="e#3222#3241#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -634,8 +654,10 @@
           <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="e#40#67#0#PHP" expanded="true" />
-            <element signature="e#1581#1598#1#PHP" expanded="true" />
-            <element signature="e#2089#2108#0#PHP" expanded="true" />
+            <element signature="e#457#481#0#PHP" expanded="true" />
+            <element signature="e#1242#1259#0#PHP" expanded="true" />
+            <element signature="e#2433#2450#1#PHP" expanded="true" />
+            <element signature="e#3222#3241#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,8 +683,10 @@
           <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="e#40#67#0#PHP" expanded="true" />
-            <element signature="e#1581#1598#1#PHP" expanded="true" />
-            <element signature="e#2089#2108#0#PHP" expanded="true" />
+            <element signature="e#457#481#0#PHP" expanded="true" />
+            <element signature="e#1242#1259#0#PHP" expanded="true" />
+            <element signature="e#2433#2450#1#PHP" expanded="true" />
+            <element signature="e#3222#3241#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -688,8 +712,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#40#67#0#PHP" expanded="true" />
-            <element signature="e#1581#1598#1#PHP" expanded="true" />
-            <element signature="e#2089#2108#0#PHP" expanded="true" />
+            <element signature="e#457#481#0#PHP" expanded="true" />
+            <element signature="e#1242#1259#0#PHP" expanded="true" />
+            <element signature="e#2433#2450#1#PHP" expanded="true" />
+            <element signature="e#3222#3241#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -856,20 +882,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/MyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#40#67#0#PHP" expanded="true" />
-            <element signature="e#1581#1598#1#PHP" expanded="true" />
-            <element signature="e#2089#2108#0#PHP" expanded="true" />
+            <element signature="e#457#481#0#PHP" expanded="true" />
+            <element signature="e#1242#1259#0#PHP" expanded="true" />
+            <element signature="e#2433#2450#1#PHP" expanded="true" />
+            <element signature="e#3222#3241#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/test/td.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="252">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

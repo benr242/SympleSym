@@ -89,4 +89,17 @@ class MyController extends Controller
             'test' => $test
         ]);
     }
+
+    /**
+     * @Route("/testData", name="testData")
+     */
+    public function testDataAction()
+    {
+        return $this->render('test/td.html.twig', [
+            'avatar_url'  => 'https://avatars.githubusercontent.com/u/12968163?v=3',
+            'name'        => 'Code Review Videos',
+            'login'       => 'codereviewvideos',
+            'blog'        => 'https://codereviewvideos.com/'
+        ]);
+    }
 }

@@ -16,6 +16,32 @@ class MyController extends Controller
      */
     public function githutAction(Request $request)
     {
+        $client = new \GuzzleHttp\Client();
+        $response = $client->request('GET', 'https://api.github.com/users/codereviewvideos');
+        $data = json_decode($response->getBody()->getContents(), true);
+
+        //dump($response->getBody()->getContents());
+        dump($data);
+        /*
+        $templateData = [
+            'avatar_url'  => $data['avatar_url'],
+            'name'        => $data['name'],
+            'login'       => $data['login'],
+            'details'     => [
+                'company'   => $data['company'],
+                'location'  => $data['location'],
+                'joined_on' => 'Joined on ' . (new \DateTime($data['created_at']))->format('d m Y'),
+            ],
+            'blog'        => $data['blog'],
+            'social_data' => [
+                "Public Repos" => $data['public_repos'],
+                "Followers"    => $data['followers'],
+                "Following"    => $data['following'],
+            ]
+        ];
+
+        */
+
         $templateData = [
             'avatar_url'  => 'https://avatars.githubusercontent.com/u/12968163?v=3',
             'name'        => 'Code Review Videos',
@@ -54,7 +80,9 @@ class MyController extends Controller
                     'stargazers_count' => '333',
                 ],
             ],
+
         ];
+
 
         return $this->render('githut/index.html.twig', $templateData);
     }

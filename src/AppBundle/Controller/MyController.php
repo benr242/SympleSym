@@ -83,7 +83,6 @@ class MyController extends Controller
 
         ];
 
-
         return $this->render('githut/index.html.twig', $templateData);
     }
 

@@ -1,13 +1,16 @@
 {% extends 'base.html.twig' %}
 
-
+{% block title %}My Bootstrap{% endblock %}
 {% block body %}
-    <div class="container">
+    <div style="background: black">
+    <div class="container" style="color:white;background:#cccccc">
         <h1>3 column layout</h1>
         <div class="row">
-            <div class="col-md-4" style="background-color: rebeccapurple">left</div>
-            <div class="col-md-4" style="background-color: #FF9999">middle</div>
-            <div class="col-md-4" style="background-color: green">right</div>
+            <div class="col-md-2" style="background-color: rebeccapurple">left</div>
+            <div class="col-md-8" style="background-color: #ff5c4b">middle</div>
+            <div class="col-md-2" style="background-color: green">right</div>
         </div>
     </div>
+    </div>
+
 {% endblock %}

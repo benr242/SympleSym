@@ -3,6 +3,7 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Genus;
+use AppBundle\Service\MessageGenerator;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
@@ -10,6 +11,13 @@ use Symfony\Component\HttpFoundation\Response;
 
 class MyController extends Controller
 {
+
+    //callback function
+    public function multi($carry, $item)
+    {
+        $carry *= $item;
+        return $carry;
+    }
 
     /**
      * @Route("/", name="githut")
@@ -22,6 +30,12 @@ class MyController extends Controller
 
         //dump($response->getBody()->getContents());
         dump($data);
+        $test = "my test";
+        dump($test);
+
+        $logger = $this->container->get("logger");
+        $logger->info('helslo world');
+
         /*
         $templateData = [
             'avatar_url'  => $data['avatar_url'],
@@ -43,18 +57,18 @@ class MyController extends Controller
         */
 
         $templateData = [
-            'avatar_url'  => 'https://avatars.githubusercontent.com/u/12968163?v=3',
-            'name'        => 'Code Review Videos',
-            'login'       => 'codereviewvideos',
-            'details'     => [
-                'company'   => 'Code Review Videos',
-                'location'  => 'Preston, Lancs, UK',
+            'avatar_url' => 'https://avatars.githubusercontent.com/u/12968163?v=3',
+            'name' => 'Code Review Videos',
+            'login' => 'codereviewvideos',
+            'details' => [
+                'company' => 'Code Review Videos',
+                'location' => 'Preston, Lancs, UK',
                 'joined_on' => 'Joined on Fake Date For Now',
             ],
-            'blog'        => 'https://codereviewvideos.com/',
+            'blog' => 'https://codereviewvideos.com/',
             'social_data' => [
-                'followers'    => 11,
-                'following'    => 22,
+                'followers' => 11,
+                'following' => 22,
                 'public_repos' => 33,
             ],
 
@@ -86,6 +100,22 @@ class MyController extends Controller
         return $this->render('githut/index.html.twig', $templateData);
     }
 
+    /**
+     * @Route("/msg", name="msg")
+     */
+    public function getMsgAction()
+    {
+        $messageGenerator = new MessageGenerator();
+
+        $message = $messageGenerator->getHappyMessage();
+        $this->addFlash('success', $message);
+
+        dump($message);
+
+        //$this->addFlash('success', $message);
+
+        return  $this->render('base.html.twig');
+    }
 
 
     /**
@@ -110,16 +140,20 @@ class MyController extends Controller
 
 
         $notes = [
-            'Octopus asked me a riddle, outsmarted me',
+            'Octopuss asked me a riddle, outsmarted me',
             'I counted 8 legs... as they wrapped around me',
             'Inked!'
         ];
+
+        $myArray = [1, 2, 3, 4, 5];
+        $arResult = array_reduce($myArray, [$this, 'multi'], 1);
 
         return  $this->render('basic.html.twig', [
             'me' => 'benr242',
             'user' => $user,
             'person' => $person,
-            'notes' => $notes
+            'notes' => $notes,
+            'arr'  => $arResult,
         ]);
     }
 

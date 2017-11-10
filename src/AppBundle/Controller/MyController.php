@@ -216,4 +216,12 @@ class MyController extends Controller
 
         return $this->render('test/td.html.twig', $testData);
     }
+
+    /**
+     * @Route("/bs/template", name="bootstrap")
+     */
+    public function bootStrapAction()
+    {
+        return $this->render('bootstrap/index.html');
+    }
 }

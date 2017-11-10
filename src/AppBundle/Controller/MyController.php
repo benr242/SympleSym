@@ -222,6 +222,10 @@ class MyController extends Controller
      */
     public function bootStrapAction()
     {
-        return $this->render('bootstrap/index.html');
+        $bsVar = "aoeu";
+
+        return $this->render('bootstrap/index.html.twig', [
+            'bootstrap' => $bsVar
+        ]);
     }
 }
